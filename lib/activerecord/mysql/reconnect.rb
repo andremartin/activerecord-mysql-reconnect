@@ -48,6 +48,7 @@ module Activerecord::Mysql::Reconnect
     interrupted: 'Query execution was interrupted',
     access_denied: 'Access denied for user',
     read_only: 'The MySQL server is running with the --read-only option',
+    cannot_connect_to: 'Can\'t connect to server on',
     cannot_connect_to_local: "Can't connect to local MySQL server", # When running in local sandbox, or using a socket file
     unknown_host: 'Unknown MySQL server host', # For DNS blips
     lost_connection: "Lost connection to MySQL server at 'reading initial communication packet'",
