@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   # We are going to stop using this in Rails 7.1 and beyond in favor of newly
   # added reconnect / retry functionality. The Platform team will provide
   # instructions for replacing this gem once 7.1 is released.
-  spec.add_dependency 'activerecord', '~> 7.1.3'
+  spec.add_dependency 'activerecord' #, '~> 7.1.3'
   spec.add_dependency 'mysql2'
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
