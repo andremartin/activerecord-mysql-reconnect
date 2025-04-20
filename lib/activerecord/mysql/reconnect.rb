@@ -52,6 +52,7 @@ module Activerecord::Mysql::Reconnect
     cannot_connect_to_local: "Can't connect to local MySQL server", # When running in local sandbox, or using a socket file
     unknown_host: 'Unknown MySQL server host', # For DNS blips
     lost_connection: "Lost connection to MySQL server at 'reading initial communication packet'",
+    lost_connection: "Lost connection to server at 'handshake: reading initial communication packet'",
     not_connected: "MySQL client is not connected",
     killed: 'Connection was killed',
     issue_connecting: 'There is an issue connecting with your hostname',
